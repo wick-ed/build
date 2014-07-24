@@ -1,0 +1,17 @@
+{
+	"keywords" : [
+		"build deployment targets ant"
+	],
+	"autoload" : {
+		"psr-4" : {
+			"Techdivision\\Build\\" : "src"
+		}
+	},
+	"name" : "techdivision/build",
+	"type" : "?",
+	"description" : "Build- and Deployment Targets",
+	"license" : "OSL-3.0",
+	"require" : {
+		"php" : ">=5.5"
+	}
+}
