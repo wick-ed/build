@@ -2,16 +2,23 @@
 	"keywords" : [
 		"build deployment targets ant"
 	],
-	"autoload" : {
-		"psr-4" : {
-			"Techdivision\\Build\\" : "src"
-		}
-	},
-	"name" : "techdivision/build",
-	"type" : "?",
-	"description" : "Build- and Deployment Targets",
+	"name" : "appserver-io/build",
+	"description" : "Generic build- and deployment targets",
 	"license" : "OSL-3.0",
 	"require" : {
 		"php" : ">=5.5"
+	},
+	"homepage" : "https://github.com/appserver-io/build",
+	"authors" : [{
+			"name" : "Tim Wagner",
+			"email" : "t.wagner@techdivision.com",
+			"role" : "Developer",
+			"homepage" : "https://github.com/wagnert"
+		}
+	],
+	"support" : {
+		"email" : "t.wagner@techdivision.com",
+		"issues" : "https://github.com/appserver-io/build/issues",
+		"source" : "https://github.com/appserver-io/build"
 	}
 }
