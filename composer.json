@@ -6,7 +6,7 @@
 	"description" : "Generic build- and deployment targets",
 	"license" : "OSL-3.0",
 	"require" : {
-		"php" : ">=5.5"
+		"php" : ">=5.4.0"
 	},
 	"homepage" : "https://github.com/appserver-io/build",
 	"authors" : [{
