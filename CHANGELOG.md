@@ -1,9 +1,20 @@
-Version 0.1.0
+# Version 0.1.1
 
-Bugfixes
+## Bugfixes
+
+* Add basedir + bootstrap when calling phpunit
+* Remove release.version property from common.default.properties
+
+## Features
 
 * None
 
-Features
+# Version 0.1.0
+
+## Bugfixes
+
+* None
+
+## Features
 
 * Initial Release
