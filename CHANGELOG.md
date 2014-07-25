@@ -1,3 +1,13 @@
+# Version 0.1.2
+
+## Features
+
+* Allow coding standard definition by build property coding.standard
+
+## Bugfixes
+
+* None
+
 # Version 0.1.1
 
 ## Bugfixes
