@@ -30,7 +30,7 @@ If you want to install the generic build- and deployment targets to use with you
 ```sh
 {
     "require": {
-        "appserver-io/routlt": "dev-master"
+        "appserver-io/build": "dev-master"
     },
 }
 ```
