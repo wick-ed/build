@@ -1,3 +1,14 @@
+# Version 0.1.3
+
+## Features
+
+* None
+
+## Bugfixes
+
+* Set correct deploy.dir in common.mac.properties
+* Remove static app/code from deploy.dir in deploy target in common.xml
+
 # Version 0.1.2
 
 ## Features
