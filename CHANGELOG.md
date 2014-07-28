@@ -1,3 +1,13 @@
+# Version 0.1.4
+
+## Features
+
+* Add new properties for var/tmp, deploy + webapps directories
+
+## Bugfixes
+
+* None
+
 # Version 0.1.3
 
 ## Features
