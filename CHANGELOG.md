@@ -1,3 +1,13 @@
+# Version 0.1.5
+
+## Features
+
+* Rename os.family property from unix to linux (also default)
+
+## Bugfixes
+
+* None
+
 # Version 0.1.4
 
 ## Features
