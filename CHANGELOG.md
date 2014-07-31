@@ -1,3 +1,14 @@
+# Version 0.1.12
+
+## Features
+
+* Make PHPDocumentor target dir configurable with phpdoc-target.dir
+* Optimize phpcpd-exclude.dir by add new phpcpd-additional.args initialized with phpcpd-exclude.dir instead
+
+## Bugfixes
+
+* None
+
 # Version 0.1.11
 
 ## Features
