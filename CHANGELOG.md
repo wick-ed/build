@@ -2,6 +2,16 @@
 
 ## Features
 
+* Ignore composer vendor directory when running tools
+
+## Bugfixes
+
+* None
+
+# Version 0.1.6
+
+## Features
+
 * Switch to composer version of phploc, phpmd, phpcs, phpcpd, phpdocumentor
 
 ## Bugfixes
