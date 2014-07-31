@@ -1,3 +1,13 @@
+# Version 0.1.13
+
+## Features
+
+* None
+
+## Bugfixes
+
+* Bugfix invalid initialization of phpcpd-additional.args in common.default.properties file
+
 # Version 0.1.12
 
 ## Features
