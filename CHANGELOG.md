@@ -1,3 +1,13 @@
+# Version 0.1.6
+
+## Features
+
+* Switch to composer version of phploc, phpmd, phpcs, phpcpd, phpdocumentor
+
+## Bugfixes
+
+* None
+
 # Version 0.1.5
 
 ## Features
