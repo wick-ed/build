@@ -1,3 +1,13 @@
+# Version 0.1.9
+
+## Features
+
+* Make exclude directories for tools configurable
+
+## Bugfixes
+
+* None
+
 # Version 0.1.8
 
 ## Features
