@@ -55,7 +55,7 @@
     
     <!-- ==================================================================== -->
     <!-- Generates the API documentation                                      -->
-    <!-- ==================================================================== -->   
+    <!-- ==================================================================== -->
     <target name="phpdoc" description="Generates the API documentation.">
          <exec executable="${vendor.dir}/bin/phpdoc" dir="${basedir}" failonerror="true">
             <arg line="--title ${ant.project.name} --target ${basedir}/apidoc --directory ${php-src.dir} --sourcecode" />
