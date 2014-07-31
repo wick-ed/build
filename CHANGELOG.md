@@ -1,3 +1,13 @@
+# Version 0.1.10
+
+## Features
+
+* None
+
+## Bugfixes
+
+* Bugfix missing = for phpcpd-exclude.dir in commong.default.properties
+
 # Version 0.1.9
 
 ## Features
