@@ -4,7 +4,7 @@
 	"homepage" : "https://github.com/appserver-io/build",
 	"license" : "OSL-3.0",
 	"keywords" : [
-		"build deployment targets ant"
+		"build deployment targets ant phpcs phploc phpdocumentor phpcpd phpmd"
 	],
 	"require" : {
 		"php" : ">=5.4.0",
