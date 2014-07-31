@@ -1,3 +1,13 @@
+# Version 0.1.8
+
+## Features
+
+* Make source directory, to be parsed by tools, configurable
+
+## Bugfixes
+
+* None
+
 # Version 0.1.7
 
 ## Features
