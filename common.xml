@@ -115,7 +115,6 @@
     <!-- Runs the PHPUnit tests on Travis-CI and generates a report           -->
     <!-- ==================================================================== -->
     <target name="run-tests" description="Runs the PHPUnit tests on Travis-CI and generates a report.">
-    	<antcall target="composer-install"/>
         <exec executable="${vendor.dir}/bin/phpunit" dir="${basedir}" failonerror="true">
             <arg line="--bootstrap bootstrap.php --configuration phpunit.xml" />
         </exec>

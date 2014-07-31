@@ -1,3 +1,13 @@
+# Version 0.1.11
+
+## Features
+
+* Remove composer-install target as dependency from run-test target
+
+## Bugfixes
+
+* None
+
 # Version 0.1.10
 
 ## Features
