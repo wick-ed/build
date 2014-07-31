@@ -1,14 +1,21 @@
 {
+	"name" : "appserver-io/build",
+	"description" : "Generic build- and deployment targets",
+	"homepage" : "https://github.com/appserver-io/build",
+	"license" : "OSL-3.0",
 	"keywords" : [
 		"build deployment targets ant"
 	],
-	"name" : "appserver-io/build",
-	"description" : "Generic build- and deployment targets",
-	"license" : "OSL-3.0",
 	"require" : {
-		"php" : ">=5.4.0"
+		"php" : ">=5.4.0",
+		"phploc/phploc" : "2.0.*",
+		"phpmd/phpmd" : "2.0.*",
+		"pdepend/pdepend" : "2.0.*",
+        "sebastian/phpcpd" : "2.0.*",
+		"phpunit/phpunit" : "3.7.*",
+		"squizlabs/php_codesniffer" : "1.5.*",
+		"phpdocumentor/phpdocumentor" : "2.6.*"
 	},
-	"homepage" : "https://github.com/appserver-io/build",
 	"authors" : [{
 			"name" : "Tim Wagner",
 			"email" : "t.wagner@techdivision.com",

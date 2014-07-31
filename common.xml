@@ -59,7 +59,7 @@
     <!-- Generates the API documentation                                      -->
     <!-- ==================================================================== -->   
     <target name="apidoc" description="Generates the API documentation.">
-         <exec executable="phpdoc" dir="${basedir}">  
+         <exec executable="${vendor.dir}/bin/phpdoc" dir="${basedir}">  
             <arg line="-ct type -ue on -s on -t ${php-target.dir}/docs -o HTML:frames:earthli -d ${php-src.dir}"/>  
          </exec>
     </target>
@@ -68,7 +68,7 @@
     <!-- Runs the code sniffer and generates a report                         -->
     <!-- ==================================================================== -->
     <target name="phpcs" description="Runs the code sniffer and generates a report.">
-        <exec executable="phpcs" dir="${basedir}" failonerror="true">
+        <exec executable="${vendor.dir}/bin/phpcs" dir="${basedir}" failonerror="true">
             <arg line="-n --extensions=php --standard=${coding.standard} ."/>
         </exec>
     </target>
@@ -77,7 +77,7 @@
     <!-- Runs the copy and paste detection                                    -->
     <!-- ==================================================================== -->
     <target name="phpcpd" description="Runs the copy and paste detection.">
-        <exec executable="phpcpd" dir="${basedir}">
+        <exec executable="${vendor.dir}/bin/phpcpd" dir="${basedir}">
             <arg line="--log-pmd ${php-target.dir}/reports/pmd-cpd.xml ${php-src.dir}"/>
         </exec>
     </target>
@@ -86,7 +86,7 @@
     <!-- Generate phploc.csv                                                  -->
     <!-- ==================================================================== -->
     <target name="phploc" description="Generate phploc.csv">
-        <exec executable="phploc" dir="${basedir}">
+        <exec executable="${vendor.dir}/bin/phploc" dir="${basedir}" failonerror="true">
             <arg line="--log-xml ${php-target.dir}/reports/phploc.xml ${php-src.dir}"/>
         </exec>
     </target>
@@ -95,8 +95,11 @@
     <!-- Runs the PHPDepend tool and generats a graphs                        -->
     <!-- ==================================================================== -->
     <target name="pdepend" description="Runs the PHPDepend tool and generats a graphs.">
-        <exec executable="pdepend" dir="${basedir}">
-            <arg line="--summary-xml=${php-target.dir}/reports/pdepend.xml --jdepend-xml=${php-target.dir}/reports/jdepend.xml --jdepend-chart=${php-target.dir}/reports/jdepend.svg --overview-pyramid=${php-target.dir}/reports/pdepend-pyramid.svg ${php-src.dir}" />
+        <exec executable="${vendor.dir}/bin/pdepend" dir="${basedir}" failonerror="true">
+            <arg line="--summary-xml=${php-target.dir}/reports/pdepend.xml
+                       --jdepend-xml=${php-target.dir}/reports/jdepend.xml
+                       --jdepend-chart=${php-target.dir}/reports/jdepend.svg
+            	       --overview-pyramid=${php-target.dir}/reports/pdepend-pyramid.svg ${php-src.dir}" />
         </exec>
     </target>
     
@@ -104,7 +107,7 @@
     <!-- Runs the PHP mess detector tool                                      -->
     <!-- ==================================================================== -->
     <target name="phpmd" description="Runs the PHP Mess detector tool.">
-        <exec executable="phpmd" dir="${basedir}">
+        <exec executable="${vendor.dir}/bin/phpmd" dir="${basedir}" failonerror="true">
             <arg line="${php-src.dir} xml codesize,unusedcode --reportfile ${php-target.dir}/reports/pmd.xml" />
         </exec>
     </target>
@@ -123,15 +126,13 @@
     <!-- Builds the library                                                   -->
     <!-- ==================================================================== -->
     <target name="build" description="Builds the library.">
-        <antcall target="phpcs"/>
-        <antcall target="run-tests"/>
-        <!--
-        <antcall target="apidoc"/>
-        <antcall target="phpcpd"/>
-        <antcall target="phploc"/>
-        <antcall target="pdepend"/>
-        <antcall target="phpmd"/>
-        -->
+        <antcall target="phpcs" />
+        <antcall target="apidoc" />
+        <antcall target="phpcpd" />
+        <antcall target="phploc" />
+        <antcall target="pdepend" />
+        <antcall target="phpmd" />
+        <antcall target="run-tests" />
     </target>
     
 </project>
