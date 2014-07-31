@@ -11,7 +11,7 @@ provied out-of-the-box with a default configuration:
 * prepare (Prepares the directory to temporarily store generated artefacts)
 * copy (Copies the sources to the temporary directory)
 * deploy (Copies the sources to the deploy directory)
-* apidoc (Generates the API documentation using PHPDocumentor)
+* phpdoc (Generates the API documentation using PHPDocumentor)
 * pdepend (Runs the PHPDepend tool and generats a graphs)
 * phpcpd (Runs the copy and paste detection)
 * phpcs (Runs the code sniffer and generates a report)
