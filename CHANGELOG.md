@@ -1,3 +1,13 @@
+# Version 0.1.14
+
+## Features
+
+* Activate commandline output for phpcs target
+
+## Bugfixes
+
+* None
+
 # Version 0.1.13
 
 ## Features
