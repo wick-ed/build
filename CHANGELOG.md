@@ -1,3 +1,13 @@
+# Version 0.1.15
+
+## Features
+
+* None
+
+## Bugfixes
+
+* Switch to phpcs --report-full instead of --report-summary and ingore warnings
+
 # Version 0.1.14
 
 ## Features

@@ -66,7 +66,7 @@
     <!-- ==================================================================== -->
     <target name="phpcs" description="Runs the code sniffer and generates a report.">
         <exec executable="${vendor.dir}/bin/phpcs" dir="${basedir}" failonerror="true">
-            <arg line="--report-summary --report-checkstyle=${php-target.dir}/reports/phpcs.xml --extensions=php --standard=${coding.standard} ."/>
+            <arg line="-n --report-full --report-checkstyle=${php-target.dir}/reports/phpcs.xml --extensions=php --standard=${coding.standard} ."/>
         </exec>
     </target>
     
