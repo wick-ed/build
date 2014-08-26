@@ -1,3 +1,13 @@
+# Version 0.1.16
+
+## Features
+
+* Add ANT phplint target to run a syntax check on PHP source folder
+
+## Bugfixes
+
+* None
+
 # Version 0.1.15
 
 ## Features
