@@ -110,7 +110,19 @@
             <arg line="${phpmd-src.dir} xml ${phpmd.standard}  --exclude ${phpmd-exclude.dir} --reportfile ${php-target.dir}/reports/pmd.xml" />
         </exec>
     </target>
-
+    
+    <!-- ==================================================================== -->
+    <!-- Runs a PHP lint syntax check on the PHP source files                 -->
+    <!-- ==================================================================== -->
+    <target name="phplint" description="Runs a PHP lint syntax check on the PHP source files.">
+        <apply executable="php" failonerror="true">
+            <arg value="-l" />
+            <fileset dir="${php-src.dir}">
+                <include name="**/*.php" />
+            </fileset>
+        </apply>
+    </target>
+    
     <!-- ==================================================================== -->
     <!-- Runs the PHPUnit tests on Travis-CI and generates a report           -->
     <!-- ==================================================================== -->
@@ -124,6 +136,7 @@
     <!-- Builds the library                                                   -->
     <!-- ==================================================================== -->
     <target name="build" depends="prepare" description="Builds the library.">
+        <antcall target="phplint" />
         <antcall target="phpcs" />
         <antcall target="run-tests" />
         <antcall target="phpmd" />
