@@ -2,6 +2,16 @@
 
 ## Features
 
+* Switch default deploy dir to instance.dir instead of instance.dir/app/code
+
+## Bugfixes
+
+* None
+
+# Version 0.1.16
+
+## Features
+
 * Add ANT phplint target to run a syntax check on PHP source folder
 
 ## Bugfixes
