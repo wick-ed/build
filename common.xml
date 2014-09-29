@@ -119,6 +119,7 @@
             <arg value="-l" />
             <fileset dir="${php-src.dir}">
                 <include name="**/*.php" />
+                <exclude name="vendor/**" />
             </fileset>
         </apply>
     </target>
