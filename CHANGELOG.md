@@ -1,12 +1,18 @@
+# Version 0.1.18
+
+## Features
+
+* Generally removed src/vendor dir from phplint check
+
+## Bugfixes
+
+* None
+
 # Version 0.1.17
 
 ## Features
 
-<<<<<<< HEAD
-* Generally removed src/vendor dir from phplint check
-=======
 * Switch default deploy dir to instance.dir instead of instance.dir/app/code
->>>>>>> 2e39419b0c7bdb090112be30a686c4a26e599654
 
 ## Bugfixes
 
