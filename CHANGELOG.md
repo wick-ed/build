@@ -1,3 +1,13 @@
+# Version 0.1.18
+
+## Features
+
+* Generally removed src/vendor dir from phplint check
+
+## Bugfixes
+
+* None
+
 # Version 0.1.17
 
 ## Features
@@ -26,7 +36,7 @@
 
 ## Bugfixes
 
-* Switch to phpcs --report-full instead of --report-summary and ingore warnings
+* Switch to phpcs --report-full instead of --report-summary and ignore warnings
 
 # Version 0.1.14
 
