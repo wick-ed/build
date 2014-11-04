@@ -1,3 +1,13 @@
+# Version 0.1.19
+
+## Features
+
+* Allowed for optional additional arguments when using the phpcs target
+
+## Bugfixes
+
+* None
+
 # Version 0.1.18
 
 ## Features
