@@ -1,3 +1,13 @@
+# Version 0.1.20
+
+## Features
+
+* Switch latest phpmd version
+
+## Bugfixes
+
+* None
+
 # Version 0.1.19
 
 ## Features
@@ -7,12 +17,6 @@
 ## Bugfixes
 
 * None
-
-# Version 0.1.18
-
-## Features
-
-* Generally removed src/vendor dir from phplint check
 
 ## Bugfixes
 
