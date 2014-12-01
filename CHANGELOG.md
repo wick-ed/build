@@ -1,9 +1,22 @@
-
-# Version 0.1.18
+# Version 0.1.20
 
 ## Features
 
 * Switch latest phpmd version
+
+## Bugfixes
+
+* None
+
+# Version 0.1.19
+
+## Features
+
+* Allowed for optional additional arguments when using the phpcs target
+
+## Bugfixes
+
+* None
 
 ## Bugfixes
 
@@ -37,7 +50,7 @@
 
 ## Bugfixes
 
-* Switch to phpcs --report-full instead of --report-summary and ingore warnings
+* Switch to phpcs --report-full instead of --report-summary and ignore warnings
 
 # Version 0.1.14
 
