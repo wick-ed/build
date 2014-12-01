@@ -1,3 +1,14 @@
+
+# Version 0.1.18
+
+## Features
+
+* Switch latest phpmd version
+
+## Bugfixes
+
+* None
+
 # Version 0.1.17
 
 ## Features
