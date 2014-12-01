@@ -1,3 +1,14 @@
+# Version 0.1.21
+
+## Features
+
+* Add default build properties for Windows environment (common.win.properties)
+* Switch from target depends attribute to antcall to make build more generic
+
+## Bugfixes
+
+* None
+
 # Version 0.1.20
 
 ## Features

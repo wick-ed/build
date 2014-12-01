@@ -25,7 +25,10 @@
     <!-- ==================================================================== -->
     <!-- Prepares the directory to temporarily store generated artefacts      -->
     <!-- ==================================================================== -->
-    <target name="prepare" depends="clean" description="Prepares the directory to temporarily store generated artefacts.">
+    <target name="prepare" description="Prepares the directory to temporarily store generated artefacts.">
+        <!-- clean the build environment -->
+        <antcall target="clean" />
+        <!-- create the default build environment folders -->
         <mkdir dir="${php-target.dir}" />
         <mkdir dir="${php-target.dir}/reports" />
     </target>
@@ -33,7 +36,10 @@
     <!-- ==================================================================== -->
     <!-- Copies the sources to the temporary directory                        -->
     <!-- ==================================================================== -->
-    <target name="copy" depends="prepare" description="Copies the sources to the temporary directory.">
+    <target name="copy" description="Copies the sources to the temporary directory.">
+        <!-- prepare the build environment -->
+        <antcall target="prepare" />
+    	<!-- copy the source files -->
         <copy todir="${php-target.dir}/${unique.name}/src" preservelastmodified="true" overwrite="true">
             <fileset dir="${php-src.dir}">
                 <include name="**/*" />
@@ -44,7 +50,10 @@
     <!-- ==================================================================== -->
     <!-- Copies the sources to the deploy directory                           -->
     <!-- ==================================================================== -->
-    <target name="deploy" depends="copy" description="Copies the sources to the deploy directory.">
+    <target name="deploy" description="Copies the sources to the deploy directory.">
+        <!-- copy the files to the target directory -->
+        <antcall target="copy" />
+        <!-- copy the files to the deploy directory -->
         <copy todir="${deploy.dir}" preservelastmodified="true" overwrite="true">
             <fileset dir="${php-target.dir}">
                 <include name="**/*"/>
@@ -136,7 +145,8 @@
     <!-- ==================================================================== -->
     <!-- Builds the library                                                   -->
     <!-- ==================================================================== -->
-    <target name="build" depends="prepare" description="Builds the library.">
+    <target name="build" description="Builds the library.">
+        <antcall target="prepare" />
         <antcall target="phplint" />
         <antcall target="phpcs" />
         <antcall target="run-tests" />
