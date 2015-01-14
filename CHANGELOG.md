@@ -1,3 +1,13 @@
+# Version 0.1.22
+
+## Features
+
+* Change order of default build target to optimize speed
+
+## Bugfixes
+
+* None
+
 # Version 0.1.21
 
 ## Features
