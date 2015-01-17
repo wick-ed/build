@@ -1,3 +1,13 @@
+# Version 0.2.0
+
+## Features
+
+* Switch to latest versions of phpdocumentor/phpdocumentor, squizlabs/php_codesniffer, phpunit/phpunit
+
+## Bugfixes
+
+* None
+
 # Version 0.1.22
 
 ## Features

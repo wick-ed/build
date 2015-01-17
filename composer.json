@@ -12,9 +12,9 @@
 		"phpmd/phpmd" : "2.1.*",
 		"pdepend/pdepend" : "2.0.*",
 		"sebastian/phpcpd" : "2.0.*",
-		"phpunit/phpunit" : "3.7.*",
-		"squizlabs/php_codesniffer" : "1.5.*",
-		"phpdocumentor/phpdocumentor" : "2.6.*"
+		"phpunit/phpunit" : "4.4.*",
+		"squizlabs/php_codesniffer" : "2.1.*",
+		"phpdocumentor/phpdocumentor" : "2.8.*"
 	},
 	"authors" : [{
 			"name" : "Tim Wagner",
