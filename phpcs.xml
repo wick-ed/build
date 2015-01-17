@@ -16,10 +16,6 @@
     <!-- Mainly use PSR2 coding standard -->
     <rule ref="PSR2"/>
 
-    <rule ref="PSR2">
-      <exclude name="PSR2.ControlStructures.ControlStructureSpacingSniff"/>
-    </rule>
-
     <!-- Include commenting sniffs from PEAR standard -->
     <rule ref="PEAR.Commenting.FileComment"/>
     <rule ref="PEAR.Commenting.ClassComment"/>
