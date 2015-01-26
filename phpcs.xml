@@ -17,8 +17,6 @@
     <rule ref="PSR2"/>
 
     <!-- Include commenting sniffs from PEAR standard -->
-    <rule ref="PEAR.Commenting.FileComment"/>
-    <rule ref="PEAR.Commenting.ClassComment"/>
     <rule ref="PEAR.Commenting.FunctionComment"/>
     <rule ref="PEAR.Commenting.InlineComment"/>
 

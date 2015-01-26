@@ -1,3 +1,13 @@
+# Version 0.2.1
+
+## Features
+
+* None
+
+## Bugfixes
+
+* Removed "PEAR.Commenting.FileComment" and "PEAR.Commenting.ClassComment" PHPCS sniff as we do not longer maintain all of their aspects
+
 # Version 0.2.0
 
 ## Features
