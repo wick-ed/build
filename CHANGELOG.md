@@ -1,3 +1,13 @@
+# Version 1.0.0
+
+## Features
+
+* Made final
+
+## Bugfixes
+
+* None
+
 # Version 0.2.1
 
 ## Features
