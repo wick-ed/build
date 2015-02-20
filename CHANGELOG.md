@@ -1,3 +1,13 @@
+# Version 1.0.1
+
+## Features
+
+* Switch to latest version 2.2.* of squizlabs/php_codesniffer
+
+## Bugfixes
+
+* None
+
 # Version 1.0.0
 
 ## Features
