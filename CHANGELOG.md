@@ -1,3 +1,13 @@
+# Version 1.0.3
+
+## Features
+
+* Make PHPLint target configurable
+
+## Bugfixes
+
+* None
+
 # Version 1.0.2
 
 ## Features

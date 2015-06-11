@@ -126,10 +126,9 @@
     <target name="phplint" description="Runs a PHP lint syntax check on the PHP source files.">
         <apply executable="php" failonerror="true">
             <arg value="-l" />
-            <fileset dir="${php-src.dir}">
-                <include name="**/*.php" />
-                <exclude name="vendor/**" />
-            </fileset>
+            <fileset dir="${phplint-src.dir}" 
+            	     includes="${phplint-include.dir}" 
+            	     excludes="${phplint-exclude.dir}"/>
         </apply>
     </target>
     
