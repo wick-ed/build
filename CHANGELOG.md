@@ -1,3 +1,23 @@
+# Version 1.0.3
+
+## Features
+
+* Make PHPLint target configurable
+
+## Bugfixes
+
+* None
+
+# Version 1.0.2
+
+## Features
+
+* Added target for CodeClimate test reporting
+
+## Bugfixes
+
+* None
+
 # Version 1.0.1
 
 ## Features

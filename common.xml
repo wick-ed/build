@@ -133,6 +133,16 @@
     </target>
     
     <!-- ==================================================================== -->
+    <!-- Reports the test results to code climate                             -->
+    <!-- ==================================================================== -->
+    <target name="report-codeclimate" description="Reports the test results to code climate.">
+        <exec executable="${vendor.dir}/bin/test-reporter" dir="${basedir}" failonerror="true">
+            <env key="CODECLIMATE_REPO_TOKEN" value="${CODECLIMATE_REPO_TOKEN}"/>
+            <arg line="--coverage-report=${php-target.dir}/reports/unit/clover.xml"/>
+        </exec>
+    </target>
+    
+    <!-- ==================================================================== -->
     <!-- Runs the PHPUnit tests on Travis-CI and generates a report           -->
     <!-- ==================================================================== -->
     <target name="run-tests" description="Runs the PHPUnit tests on Travis-CI and generates a report.">
