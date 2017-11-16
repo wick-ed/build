@@ -1,3 +1,13 @@
+# Version 1.0.4
+
+## Features
+
+* Switch to PHPDocumentor version ~2.9
+
+## Bugfixes
+
+* None
+
 # Version 1.0.3
 
 ## Features
