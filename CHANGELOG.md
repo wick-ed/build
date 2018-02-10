@@ -1,3 +1,20 @@
+# Version 1.0.5
+
+## Features
+
+* Switch to PHPUnit 4.8.*
+* Add libraries for a Robo.li build environment
+
+# Version 1.0.4
+
+## Features
+
+* Switch to PHPDocumentor version ~2.9
+
+## Bugfixes
+
+* None
+
 # Version 1.0.3
 
 ## Features
