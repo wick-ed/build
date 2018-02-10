@@ -1,3 +1,10 @@
+# Version 1.0.5
+
+## Features
+
+* Switch to PHPUnit 4.8.*
+* Add libraries for a Robo.li build environment
+
 # Version 1.0.4
 
 ## Features
