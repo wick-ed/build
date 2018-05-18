@@ -62,15 +62,6 @@
     </target>
     
     <!-- ==================================================================== -->
-    <!-- Generates the API documentation                                      -->
-    <!-- ==================================================================== -->
-    <target name="phpdoc" description="Generates the API documentation.">
-         <exec executable="${vendor.dir}/bin/phpdoc" dir="${basedir}" failonerror="true">
-            <arg line="--title ${ant.project.name} --target ${phpdoc-target.dir} --directory ${phpdoc-src.dir} --ignore ${phpdoc-ignore.dir} --sourcecode" />
-         </exec>
-    </target>
-    
-    <!-- ==================================================================== -->
     <!-- Runs the code sniffer and generates a report                         -->
     <!-- ==================================================================== -->
     <target name="phpcs" description="Runs the code sniffer and generates a report.">
