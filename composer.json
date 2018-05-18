@@ -7,17 +7,16 @@
         "build deployment targets ant phpcs phploc phpdocumentor phpcpd phpmd"
     ],
     "require": {
-        "php": ">=5.5.0 < 7.0.0",
+        "php": ">=5.6.0",
+        "phpmd/phpmd": "~2.6.0",
+        "phploc/phploc": "~4.0.0",
+        "pdepend/pdepend": "~2.5.0",
+        "phpunit/phpunit": "~5.7.0",
+        "sebastian/phpcpd": "~3.0.0",
         "mikey179/vfsStream": "1.*",
-        "phpmd/phpmd": "2.1.*",
-        "phploc/phploc": "2.0.*",
-        "pdepend/pdepend": "2.0.*",
-        "phpunit/phpunit": "4.8.*",
-        "sebastian/phpcpd": "2.0.*",
         "consolidation/robo": "~1.0",
         "henrikbjorn/lurker": "~1.0",
-        "squizlabs/php_codesniffer": "2.2.*",
-        "phpdocumentor/phpdocumentor": "2.9.*",
+        "squizlabs/php_codesniffer": "~3.1.0",
         "appserver-io/pthreads-polyfill": "~1.0"
     },
     "authors": [
